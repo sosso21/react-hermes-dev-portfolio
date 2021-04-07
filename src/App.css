@@ -1,0 +1,118 @@
+.text-center{
+    justify-content: center;
+}
+.w-100{
+    width: 100%;
+}
+.m-auto{
+    margin:   auto ;
+}
+.p-4{
+    padding:2rem 2rem;
+}
+.important{
+   color:  #F06000 ;
+}
+.h-max-c{
+height: max-content;
+}
+.max-h-50v{
+    min-height: 90Vh;
+}
+.my-4{
+    margin:  1.5rem 0;
+}
+.bg-contain{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.trasparentOnHover{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    animation:toNotOpac 0.5s both;
+}
+
+.span-item-center{
+    background-color: rgba(255, 255, 255);
+    color: black;
+    min-width: 25vw;
+    border: solid black 1px solid;
+    padding: 2rem;
+
+}
+
+.trasparentOnHover:hover{
+    animation:toOpac 0.5s both;
+}
+
+
+@keyframes toOpac {
+    from {
+        opacity:0.05;
+    }
+    to {
+        opacity:0.8;
+    }
+  }
+  
+@keyframes toNotOpac {
+    from {
+        
+        opacity:0.8;
+    }
+    to {
+        opacity:0.05;
+    }
+  }
+  .react-slideshow-container .default-nav{
+      display: none;
+      opacity: 0;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  #rootAnim {
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #wrapper {
+    overflow: hidden;
+    display: none;
+    width: 320px;
+  }
+  
+  #text {
+    padding: 0.5em ;
+    
+  }
+
+
+
+  
+
+  .ml16 {
+    color: #402d2d;
+    padding: 40px 0;
+    font-weight: 800;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    overflow: hidden;
+  }
+  
+  .ml16 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }

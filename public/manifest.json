@@ -1,0 +1,16 @@
+{
+  "short_name": "Hermes",
+  "name": "Hermes Dev",
+  "description":"Offrez vous un service de création d'application web et de maintenue de vos sites web de qualités , avec un design épurée, augmentez votre SEO et booster votre business et donnez vie à vos projets . Développez votre application avec les dernières technologie du web. Découvrez des Templates et des makets incroyable. Commandez tout de suite vos Sites vitrine , vos boutique en ligne  ou autres . Arrêtez de vous prendre la tette avec wordpress , Shopify , Wix ...ect . Arrêtez d'investir votree argents dans des publicités , profitez plutôt d'un trafic issue de de refinancement naturel."
+  "icons": [
+    {
+      "src": "./logo.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
